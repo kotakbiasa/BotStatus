@@ -19,7 +19,7 @@ jobs:
           TIME_ZONE: ${{ secrets.TIME_ZONE }}
           UP_TELEGRAM: ${{ secrets.UP_TELEGRAM }}
           DOWN_TELEGRAM: ${{ secrets.DOWN_TELEGRAM }}
-          GITHUB_REPOSITORY: ${{ secrets. GITHUB_REPOSITORY }}
+          GITHUB_REPOSITORY: ${{ BotStatus }}
         id: bot-status
 
       # now you can use the output of status returned as JSON anywhere. 
