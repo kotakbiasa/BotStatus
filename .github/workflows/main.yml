@@ -16,13 +16,9 @@ jobs:
           APP_ID: ${{ secrets.APP_ID }} # APP ID from my.telegram.org
           API_HASH: ${{ secrets.API_HASH }} # API ID from my.telegram.org
           IDS: ${{ secrets.IDS }} # Message IDs to edit.
-          TIME_ZONE: ${{ secrets.TIME_ZONE }}
-          UP_TELEGRAM: ${{ secrets.UP_TELEGRAM }}
-          DOWN_TELEGRAM: ${{ secrets.DOWN_TELEGRAM }}
-          GITHUB_REPOSITORY: ${{ BotStatus }}
         id: bot-status
 
       # now you can use the output of status returned as JSON anywhere. 
       # example :~
-      # - name: Echo the JSON data.
-      #    run: echo ${{ steps.bot-status.outputs.STATUS }} 
+      - name: Echo the JSON data.
+          run: echo ${{ steps.bot-status.outputs.STATUS }} 
