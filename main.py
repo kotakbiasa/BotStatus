@@ -39,12 +39,12 @@ end_text = "**Bots status are auto-updated every 3 hours at random frequency.**"
 end_message = os.getenv('END_MESSAGE', end_text) # text after the status to show.
 commit_message = os.getenv('COMMIT_MESSAGE', '✨ auto-updated bot status. ✨') # commit message at status update. Btw, stars looks cool.
 bullet = os.getenv('BULLET', '◪') # if you want to get custom bullets in Telegram.
-time_zone = os.getenv('TIME_ZONE', 'Asia/Kolkata') # ISD. You can choose different as per your location.
+time_zone = os.getenv('TIME_ZONE', 'Asia/Makassar') # ISD. You can choose different as per your location.
 time_format = os.getenv('TIME_FORMAT', '%H:%M %d/%m') # Time format, defaults to Hrs:minutes Day/Month. Eg, 9:41 12/9
 current_time = datetime.now(timezone(time_zone)).strftime(time_format) # Time when the script runs.
 up_github = os.getenv('UP_GITHUB', '✔️') # Custom Icon when Bot is up to show in GitHub MarkDown file.
 down_github = os.getenv('DOWN_GITHUB', '❌') # Custom Icon when Bot is down to show in GitHub MarkDown file.
-up_telegram = os.getenv('UP_TELEGRAM', '🚀') # Custom Icon when Bot is up to show in Telegram.
+up_telegram = os.getenv('UP_TELEGRAM', '✅') # Custom Icon when Bot is up to show in Telegram.
 down_telegram = os.getenv('DOWN_TELEGRAM', '❌') # Custom Icon when Bot is down to show in Telegram.
 
 # print some information
