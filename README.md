@@ -11,8 +11,8 @@
 
 A simple, short, mostly customisable GitHub Action to show your bot's status in your GitHub MarkDown file as well as in your Telegram. 
 
-<!--START_SECTION:botstatus-->
-<!--END_SECTION:botstatus-->
+<!--START_SECTION:bot-status-->
+<!--END_SECTION:bot-status-->
 ---
 ### How to use this ?
 - **Star** this repo. ⭐
