@@ -1,17 +1,57 @@
 {
-	"pypi_dlbot": {
+	"kotakbiasabot": {
 		"start": "start",
 		"sleep": 2
 	},
-	"ixail_bot": {
+	"kotakbiasastreambot": {
 		"start": "start",
 		"sleep": 2
 	},
-	"secure_me_robot": {
+	"deltastreambot": {
 		"start": "start",
 		"sleep": 2
 	},
-	"medium_free_robot": {
+	"tydownbot": {
+		"start": "start",
+		"sleep": 2
+	},
+	"kotakunzipbot": {
+		"start": "start",
+		"sleep": 2
+	},
+	"kotakbiasamirrorbot": {
+		"start": "start",
+		"sleep": 2
+	},
+	"indomirrorbot": {
+		"start": "start",
+		"sleep": 2
+	},
+	"kotakbiasavpnbot": {
+		"start": "start",
+		"sleep": 2
+	},
+	"kotakfilesharingbot": {
+		"start": "start",
+		"sleep": 2
+	},
+	"kotakbiasaaibot": {
+		"start": "start",
+		"sleep": 2
+	},
+	"teraboxdownloadbot": {
+		"start": "start",
+		"sleep": 2
+	},
+	"ytrevancedbot": {
+		"start": "start",
+		"sleep": 2
+	},
+	"anisearchrobot": {
+		"start": "start",
+		"sleep": 2
+	},
+	"filerenametgbot": {
 		"start": "start",
 		"sleep": 2
 	}
